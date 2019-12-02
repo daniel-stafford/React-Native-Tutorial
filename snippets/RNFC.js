@@ -1,12 +1,8 @@
 import React from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 
 const ListScreen = () => {
-  return (
-    <Text>
-      
-    </Text>
-  )
+  return <Text />
 }
 
 const styles = StyleSheet.create({})
