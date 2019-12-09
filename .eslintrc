@@ -19,19 +19,20 @@
     "react/forbid-prop-types": [0],
     "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }],
     "quotes": [
-      "error",
-      "single",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
+      1,
+      "double",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
     ],
-    "jsx-quotes": ["error", "prefer-double"],
+    "jsx-quotes": ["warning", "prefer-double"],
     "camelcase": "off",
     "no-use-before-define": "off",
+    "react/prop-types": 0,
     "semi": 0,
     "prettier/prettier": [
       "error",
       {
         "trailingComma": "none",
-        "singleQuote": true,
+        "singleQuote": false,
         "jsxSingleQuote": false,
         "printWidth": 100,
         "semi": false,
