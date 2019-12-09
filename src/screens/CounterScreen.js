@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Button } from "react-native"
 const CounterScreen = () => {
   const [count, setCount] = useState(0)
   return (
-    <View>
+    <View style={styles.container}>
       <Button
         title="Increase"
         onPress={() => {
@@ -17,11 +17,21 @@ const CounterScreen = () => {
           setCount(count - 1)
         }}
       />
-      <Text>Current Count: {count}</Text>
+      <Text style={{ position: "absolute", bottom: 0 }}>
+        Current Count: {count}
+      </Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+    margin: "5%"
+  }
+})
 
 export default CounterScreen
