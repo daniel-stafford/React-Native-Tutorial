@@ -27,7 +27,7 @@
     "eslint-plugin-react": "^7.17.0",
     "mem": "^6.0.1",
     "prettier": "^1.19.1",
-    "ws": "^7.2.0"
+    "ws": "^7.4.6"
   },
   "private": true
 }
